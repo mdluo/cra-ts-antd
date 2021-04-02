@@ -1,0 +1,38 @@
+{
+  "React Component": {
+    "prefix": "comp",
+    "body": [
+      "import React from 'react';",
+      "",
+      "const $TM_FILENAME_BASE: React.FC = () => {",
+      "  return (",
+      "    $2",
+      "  );",
+      "}",
+      "",
+      "export default $TM_FILENAME_BASE;",
+      ""
+    ]
+  },
+  "React Component with Props": {
+    "prefix": "comp",
+    "body": [
+      "import React from 'react';",
+      "",
+      "import styles from './$TM_FILENAME_BASE.module.less';",
+      "",
+      "export interface Props {",
+      "  ",
+      "}",
+      "",
+      "const $TM_FILENAME_BASE: React.FC<Props> = () => {",
+      "  return (",
+      "    ",
+      "  );",
+      "}",
+      "",
+      "export default $TM_FILENAME_BASE;",
+      ""
+    ]
+  },
+}
